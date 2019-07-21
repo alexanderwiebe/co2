@@ -2,7 +2,7 @@ const i2c = require("i2c-bus");
 
 const SPG30_ADDR = 0x58;
 
-const cmd_serialId = 0x3682;
+const cmd_serialId = [0x36, 0x82];
 
 const getCO2 = () => {
   console.log("starting");
