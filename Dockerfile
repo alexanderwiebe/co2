@@ -9,7 +9,7 @@ COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get upgrade -y
 RUN pip3 install --upgrade setuptools
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
