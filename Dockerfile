@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8.0b2-stretch-buster
+FROM python:3.8.0b2-buster
 
 # Set the working directory to /app
 WORKDIR /app
